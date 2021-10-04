@@ -72,13 +72,18 @@ var vm = new Vue({
 var vm = new Vue({
   el: '#whatIsInkarami',
   data: {
-  //  information: [
-  //     {id: 1, img: '../assets/premium/img/img001-shampoo.jpg', body: '優れた保湿効果とケラチン（補修剤）のケア効果でリッチに洗い上げます。厚みのある泡が、痛んで乾燥した髪のパサつきを解消して、まとまりを与えます。', title: 'TOKIO IE プレミアム シャンプー'},
-  //     {id: 2, img: '../assets/premium/img/img001-treatment.jpg', body: '分子量の異なる4種類のケラチン（補修剤）が髪にハリコシと補修効果を与え、加水分解シルク・コラーゲン・ダイズ・ゴマの各PPTが弾力としっとりとした潤いのある髪に仕上げます。', title: 'TOKIO IE プレミアム トリートメント'},
-  //     {id: 3, img: '../assets/premium/img/img001-premiumair.jpg', body: 'ケラチンとCMC成分が痛んだ髪をしっかりと補修・保湿するミストタイプの洗い流さないケアトリートメント。髪の芯まで素早く浸透し、毛先までたっぷりの潤いと抜群の光沢感を与えます。', title: 'TOKIO IE プレミアム エアトリートメント'},
-  //   ]
-  information: [
-    {image: '../assets/premium/img/tokio-ie-inkarami.png', body: 'TOKIO インカラミのホームケアシリーズTOKIO IE。シャンプーとトリートメントでインカラミする世界初の家庭用システムトリートメント。シャンプーにTOKIO 1、トリートメントにTOKIO 2.3.4が配合されており、いつも通りにシャンプーとトリートメントをするだけで、お風呂で簡単にTOKIO インカラミを体験できます。さらに独自処方アウトカラミを用いた洗い流さないトリートメントで上品な艶と指通りを与えます。イエでインカラミができる、ホームケアの新習慣をご提案します。'},
-  ]
-}
+    information: [
+      {image: '../assets/premium/img/tokio-ie-inkarami.png', body: 'TOKIO インカラミのホームケアシリーズTOKIO IE。シャンプーとトリートメントでインカラミする世界初の家庭用システムトリートメント。シャンプーにTOKIO 1、トリートメントにTOKIO 2.3.4が配合されており、いつも通りにシャンプーとトリートメントをするだけで、お風呂で簡単にTOKIO インカラミを体験できます。さらに独自処方アウトカラミを用いた洗い流さないトリートメントで上品な艶と指通りを与えます。イエでインカラミができる、ホームケアの新習慣をご提案します。'},
+    ]
+  }
+});
+
+var vm = new Vue({
+  el: '#premium',
+  data: {
+    factoid: [
+      // {image: '../assets/premium/img/tokio-ie-inkarami.png', body: 'TOKIO インカラミのホームケアシリーズTOKIO IE。シャンプーとトリートメントでインカラミする世界初の家庭用システムトリートメント。シャンプーにTOKIO 1、トリートメントにTOKIO 2.3.4が配合されており、いつも通りにシャンプーとトリートメントをするだけで、お風呂で簡単にTOKIO インカラミを体験できます。さらに独自処方アウトカラミを用いた洗い流さないトリートメントで上品な艶と指通りを与えます。イエでインカラミができる、ホームケアの新習慣をご提案します。'},
+      {img1: '../assets/premium/img/tokio-ie-premium.png', img2: '../assets/premium/img/premium-2.png', body: 'シルクとコラーゲンのPPT活性剤を使用したPREMIUMシリーズはハイダメージ毛・乾燥毛の方に特にオススメ。TOKIO INKARAMIサロントリートメントのモイスチャーラインの仕上がりを実現。一番しっとりで、柔らかくパサつきを抑え、泡はもっちりとしています。一度使えばその補修力・保湿力の圧倒的な効果を実感いただけます。'},
+    ]
+  }
 });
