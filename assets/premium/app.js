@@ -40,3 +40,31 @@ var vm = new Vue({
 //   }
 // });
 
+var vm = new Vue({
+  el: '#gallery',
+  data: {
+    pictures: [
+      {id: 1, img: '../assets/premium/img/gallery1.jpg', text: 'インスタ画像1'},
+      {id: 2, img: '../assets/premium/img/gallery2.jpg', text: 'インスタ画像2'},
+      {id: 3, img: '../assets/premium/img/gallery3.jpg', text: 'インスタ画像3'},
+      {id: 4, img: '../assets/premium/img/gallery4.jpg', text: 'インスタ画像4'},
+      {id: 5, img: '../assets/premium/img/gallery5.jpg', text: 'インスタ画像5'},
+      {id: 6, img: '../assets/premium/img/gallery6.jpg', text: 'インスタ画像6'},
+      {id: 7, img: '../assets/premium/img/gallery7.jpg', text: 'インスタ画像7'},
+      {id: 8, img: '../assets/premium/img/gallery8.jpg', text: 'インスタ画像8'},
+      {id: 9, img: '../assets/premium/img/gallery9.jpg', text: 'インスタ画像9'},
+    ]
+  }
+});
+
+
+var vm = new Vue({
+  el: '#prodChar',
+  data: {
+    characteristics: [
+      {id: 1, img: '../assets/premium/img/img001-shampoo.jpg', body: '優れた保湿効果とケラチン（補修剤）のケア効果でリッチに洗い上げます。厚みのある泡が、痛んで乾燥した髪のパサつきを解消して、まとまりを与えます。', title: 'TOKIO IE プレミアム シャンプー'},
+      {id: 2, img: '../assets/premium/img/img001-treatment.jpg', body: '分子量の異なる4種類のケラチン（補修剤）が髪にハリコシと補修効果を与え、加水分解シルク・コラーゲン・ダイズ・ゴマの各PPTが弾力としっとりとした潤いのある髪に仕上げます。', title: 'TOKIO IE プレミアム トリートメント'},
+      {id: 3, img: '../assets/premium/img/img001-premiumair.jpg', body: 'ケラチンとCMC成分が痛んだ髪をしっかりと補修・保湿するミストタイプの洗い流さないケアトリートメント。髪の芯まで素早く浸透し、毛先までたっぷりの潤いと抜群の光沢感を与えます。', title: 'TOKIO IE プレミアム エアトリートメント'},
+    ]
+  }
+});
